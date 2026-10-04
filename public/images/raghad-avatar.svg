@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Raghad avatar illustration">
+  <defs>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF8A4C"/>
+      <stop offset="1" stop-color="#F0561D"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="0.42" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#FAD9C1"/>
+      <stop offset="1" stop-color="#EDB894"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A2620"/>
+      <stop offset="1" stop-color="#22140F"/>
+    </linearGradient>
+  </defs>
+  <!-- back hair -->
+  <path d="M96 200c0-70 46-124 104-124s104 54 104 124v120c0 20-18 30-40 30H136c-22 0-40-10-40-30z" fill="url(#hair)"/>
+  <!-- body -->
+  <path d="M70 480c0-92 58-148 130-148s130 56 130 148z" fill="url(#hoodie)"/>
+  <path d="M160 338c10 22 26 34 40 34s30-12 40-34" fill="none" stroke="#FFD3B8" stroke-width="10" stroke-linecap="round"/>
+  <text x="200" y="430" text-anchor="middle" font-family="ui-monospace,monospace" font-size="30" font-weight="700" fill="#fff" opacity=".9">&lt;/&gt;</text>
+  <!-- neck -->
+  <rect x="180" y="290" width="40" height="44" rx="16" fill="#EDB894"/>
+  <!-- head -->
+  <circle cx="200" cy="210" r="96" fill="url(#skin)"/>
+  <!-- bun -->
+  <circle cx="200" cy="92" r="34" fill="url(#hair)"/>
+  <!-- hair cap + fringe -->
+  <path d="M104 204c-4-66 40-110 96-110s100 44 96 110c-18-34-44-56-74-62-8 16-30 30-58 34-26 4-46 12-60 28z" fill="url(#hair)"/>
+  <!-- cheeks -->
+  <ellipse cx="146" cy="242" rx="18" ry="10" fill="#FF8A80" opacity=".45"/>
+  <ellipse cx="254" cy="242" rx="18" ry="10" fill="#FF8A80" opacity=".45"/>
+  <!-- eyes -->
+  <ellipse cx="166" cy="214" rx="11" ry="14" fill="#1E1412"/>
+  <ellipse cx="234" cy="214" rx="11" ry="14" fill="#1E1412"/>
+  <circle cx="170" cy="208" r="4" fill="#fff"/>
+  <circle cx="238" cy="208" r="4" fill="#fff"/>
+  <!-- glasses -->
+  <g fill="none" stroke="#2B2B2E" stroke-width="5">
+    <circle cx="166" cy="214" r="26"/>
+    <circle cx="234" cy="214" r="26"/>
+    <path d="M192 212q8-6 16 0"/>
+  </g>
+  <!-- smile -->
+  <path d="M184 256q16 16 32 0" fill="none" stroke="#B4533A" stroke-width="5" stroke-linecap="round"/>
+</svg>

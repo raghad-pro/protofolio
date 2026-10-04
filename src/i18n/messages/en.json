@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "title": "Raghad Ayyad — Frontend Developer",
+    "description": "Frontend developer and Software Engineering student crafting fast, accessible, and delightful interfaces with React, Next.js, and Tailwind CSS."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "toggleTheme": "Toggle color theme",
+    "switchLocale": "العربية",
+    "switchLocaleLabel": "Switch language to Arabic",
+    "close": "Close",
+    "openInNewTab": "Open in new tab",
+    "loading": "Loading…",
+    "loading3d": "Warming up the 3D scene…"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Let's talk"
+  },
+  "socials": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "hero": {
+    "badge": "1st Place Winner — Taqat Hackathon 2026 🏆",
+    "greeting": "Hi, I'm Raghad 👋",
+    "headline": "Frontend developer crafting <accent>interfaces that feel effortless</accent>.",
+    "description": "I'm a Software Engineering student at Al-Azhar University who turns complex products into fast, accessible, and beautifully detailed web experiences with React, Next.js, and Tailwind CSS.",
+    "ctaProjects": "View my work",
+    "ctaContact": "Get in touch",
+    "available": "Open to opportunities",
+    "avatarLabel": "Interactive 3D avatar of Raghad. Click to say hi.",
+    "orbitLabel": "Tech stack",
+    "stats": {
+      "gpa": "GPA",
+      "internships": "Internships",
+      "hackathon": "Hackathon"
+    },
+    "statValues": {
+      "gpa": "87%",
+      "internships": "3",
+      "hackathon": "1st"
+    },
+    "tech": {
+      "react": "React — component architecture & hooks",
+      "next": "Next.js — App Router, RSC & SEO",
+      "typescript": "TypeScript — type-safe, scalable code",
+      "tailwind": "Tailwind CSS v4 — design systems at speed",
+      "vite": "Vite — lightning-fast tooling",
+      "git": "Git — clean history & collaboration"
+    }
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Engineering mindset, <accent>designer's eye</accent>.",
+    "lead": "I'm Raghad, a Software Engineering student at Al-Azhar University and a frontend developer who cares about every pixel and every millisecond.",
+    "body1": "My journey started with curiosity about how great products feel so natural to use. Today I build production interfaces with React, JavaScript (ES6+), and Tailwind CSS v4 — from design systems and reusable component libraries to full SaaS dashboards wired to REST APIs.",
+    "body2": "Through internships at Taqat (CodeMap), Areisto, and Afaaqware, I've learned to ship in real teams: reading designs closely, writing maintainable code, and collaborating through code reviews. Winning 1st place at the Taqat Hackathon 2026 taught me how to move fast without breaking the experience.",
+    "imageAlt": "Illustrated portrait of Raghad Ayyad",
+    "details": {
+      "title": "Quick facts",
+      "university": "University",
+      "universityValue": "Al-Azhar University",
+      "major": "Major",
+      "majorValue": "Software Engineering",
+      "gpa": "GPA",
+      "gpaValue": "87%",
+      "focus": "Focus",
+      "focusValue": "Frontend · UI/UX engineering",
+      "languages": "Languages",
+      "languagesValue": "Arabic · English"
+    },
+    "highlights": {
+      "title": "What I bring",
+      "pixel": "Pixel-perfect implementation of complex designs",
+      "a11y": "Accessible, responsive, RTL-ready interfaces",
+      "perf": "Performance-minded React architecture",
+      "team": "Clear communication and team-first workflows"
+    },
+    "floating": {
+      "hackathon": "Hackathon winner",
+      "hackathonValue": "1st Place",
+      "code": "Clean code",
+      "codeValue": "Atomic Design"
+    }
+  },
+  "timeline": {
+    "eyebrow": "Journey",
+    "title": "Experience & <accent>education</accent>",
+    "description": "The milestones that shaped how I build — from the classroom to production teams.",
+    "filters": {
+      "label": "Filter milestones",
+      "all": "All",
+      "work": "Experience",
+      "education": "Education",
+      "award": "Awards"
+    },
+    "kinds": {
+      "work": "Experience",
+      "education": "Education",
+      "award": "Award"
+    },
+    "items": {
+      "taqat-hackathon": {
+        "title": "1st Place Winner",
+        "org": "Taqat Hackathon",
+        "period": "2026",
+        "description": "Led the frontend of the winning team's product — from rapid prototyping to a polished, demo-ready interface built under tight time pressure."
+      },
+      "taqat": {
+        "title": "Frontend Developer Intern",
+        "org": "Taqat (CodeMap)",
+        "period": "2025 — 2026",
+        "description": "Built responsive, reusable React components and integrated them with REST APIs, working inside an agile team with code reviews and shared design systems."
+      },
+      "areisto": {
+        "title": "Frontend Developer Intern",
+        "org": "Areisto",
+        "period": "2025",
+        "description": "Translated product designs into production-ready interfaces, focusing on component reusability, consistent styling, and cross-browser quality."
+      },
+      "afaaqware": {
+        "title": "Frontend Developer Intern",
+        "org": "Afaaqware",
+        "period": "2024",
+        "description": "Contributed UI features to client projects with React and Tailwind CSS, sharpening fundamentals in modern JavaScript and Git-based collaboration."
+      },
+      "freelance": {
+        "title": "Freelance Frontend Developer",
+        "org": "Self-employed",
+        "period": "2024 — Present",
+        "description": "Designing and building landing pages, storefronts, and dashboards for clients — owning everything from requirements to deployment."
+      },
+      "alazhar": {
+        "title": "B.Sc. Software Engineering",
+        "org": "Al-Azhar University",
+        "period": "2022 — Present",
+        "description": "GPA 87%. Coursework in software architecture, data structures, databases, and human-computer interaction."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "title": "Projects I'm <accent>proud of</accent>",
+    "description": "A few products I've designed and engineered end-to-end. Open a live preview without leaving the page.",
+    "featured": "Featured",
+    "livePreview": "Preview",
+    "visitSite": "Visit site",
+    "sourceCode": "Source code",
+    "role": "Role",
+    "modal": {
+      "tabLive": "Live site",
+      "tab3d": "3D preview",
+      "devices": "Preview device",
+      "desktop": "Desktop",
+      "tablet": "Tablet",
+      "mobile": "Mobile",
+      "noLive": "A public demo isn't available yet — explore the interactive 3D preview instead.",
+      "iframeHint": "If the site refuses to load inside the preview, open it in a new tab.",
+      "dragHint": "Drag to rotate"
+    },
+    "items": {
+      "workflow": {
+        "title": "Workflow",
+        "category": "SaaS · Project management",
+        "summary": "A SaaS platform for project and team management — boards, tasks, members, and progress at a glance.",
+        "role": "Built the complete frontend and REST API integration.",
+        "features": {
+          "0": "Kanban boards with task workflows",
+          "1": "Team & role management",
+          "2": "REST API integration with robust loading/error states"
+        }
+      },
+      "prowess-lift": {
+        "title": "Prowess Lift",
+        "category": "Web app · Fitness",
+        "summary": "A bold, high-energy fitness experience with strong typography, smooth motion, and a conversion-focused layout.",
+        "role": "Designed and developed the frontend.",
+        "features": {
+          "0": "Responsive, motion-rich sections",
+          "1": "Reusable component system",
+          "2": "Optimized for performance and SEO"
+        }
+      },
+      "skincare-store": {
+        "title": "Skincare Store",
+        "category": "E-commerce",
+        "summary": "A soft, elegant storefront for skincare products with a refined catalog, product details, and cart flow.",
+        "role": "Built the storefront UI end-to-end.",
+        "features": {
+          "0": "Product catalog & filtering",
+          "1": "Product detail and cart experience",
+          "2": "Mobile-first, accessible UI"
+        }
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something <accent>great together</accent>",
+    "description": "Have a project, an internship opportunity, or just want to say hi? My inbox is always open.",
+    "info": {
+      "email": "Email",
+      "response": "Response time",
+      "responseValue": "Usually within 24 hours"
+    },
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "email": "Email address",
+      "emailPlaceholder": "jane@company.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or idea…",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "error": "Something went wrong. Please try again, or email me directly."
+    },
+    "errors": {
+      "nameMin": "Please enter your name (at least 2 characters).",
+      "nameMax": "Name is too long.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageMin": "Your message should be at least 10 characters.",
+      "messageMax": "Please keep your message under 2000 characters."
+    },
+    "success": {
+      "title": "Message sent! 🎉",
+      "body": "Thanks for reaching out — I'll get back to you soon.",
+      "again": "Send another message"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Raghad Ayyad. Crafted with Next.js, React Three Fiber & a lot of ☕.",
+    "backToTop": "Back to top"
+  }
+}
