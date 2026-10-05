@@ -1,0 +1,89 @@
+/*
+ * Design tokens — the single source of truth for the visual language.
+ * Raw values live here; `globals.css` maps them into Tailwind's `@theme`
+ * so they are available as utilities (e.g. `bg-ds-surface`, `text-ds-muted`).
+ *
+ * Keep 3D colors in sync with `src/config/theme.ts` (three.js can't read CSS vars).
+ */
+
+:root {
+  /* Surfaces */
+  --ds-bg: #fbf9f5;
+  --ds-surface: #ffffff;
+  --ds-surface-2: #f4efe7;
+
+  /* Brand */
+  --ds-primary: #ff6b35;
+  --ds-primary-contrast: #ffffff;
+  --ds-glow: #ffa07a;
+  --ds-accent: #ffa07a; /* solid companion of the glow, used in gradients */
+
+  /* Text */
+  --ds-fg: #1a1a1a;
+  --ds-muted: #6b6560;
+
+  /* Lines & glass */
+  --ds-border: rgb(26 26 26 / 0.08);
+  --ds-border-strong: rgb(26 26 26 / 0.16);
+  --ds-glass: rgb(255 255 255 / 0.62);
+  --ds-grid-dot: rgb(26 26 26 / 0.07);
+
+  /* Elevation */
+  --ds-shadow-sm: 0 1px 2px rgb(26 26 26 / 0.04), 0 4px 12px -6px rgb(26 26 26 / 0.08);
+  --ds-shadow: 0 1px 2px rgb(26 26 26 / 0.04), 0 18px 40px -18px rgb(26 26 26 / 0.18);
+  --ds-shadow-glow: 0 12px 40px -12px color-mix(in oklab, var(--ds-primary) 60%, transparent);
+
+  /* Shape */
+  --ds-radius-sm: 0.625rem;
+  --ds-radius-md: 0.875rem;
+  --ds-radius-lg: 1.25rem;
+  --ds-radius-xl: 1.75rem;
+
+  /* Motion */
+  --ds-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ds-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Typography (font vars are injected by next/font in the root layout) */
+  --ds-font-sans: var(--font-geist-sans), var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+  --ds-font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", monospace;
+  --ds-tracking-tight: -0.035em;
+  --ds-tracking-snug: -0.015em;
+
+  /* Layout */
+  --ds-container: 72rem;
+  --ds-nav-height: 4.5rem;
+
+  color-scheme: light;
+}
+
+.dark {
+  --ds-bg: #0b0b0c;
+  --ds-surface: #161618;
+  --ds-surface-2: #1d1d20;
+
+  --ds-primary: #ff7a00;
+  --ds-primary-contrast: #0b0b0c;
+  --ds-glow: rgb(255 122 0 / 0.2);
+  --ds-accent: #ffb15c;
+
+  --ds-fg: #f4f4f5;
+  --ds-muted: #a1a1aa;
+
+  --ds-border: rgb(244 244 245 / 0.08);
+  --ds-border-strong: rgb(244 244 245 / 0.16);
+  --ds-glass: rgb(22 22 24 / 0.6);
+  --ds-grid-dot: rgb(244 244 245 / 0.06);
+
+  --ds-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 12px -6px rgb(0 0 0 / 0.5);
+  --ds-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 18px 40px -18px rgb(0 0 0 / 0.7);
+  --ds-shadow-glow: 0 12px 48px -10px rgb(255 122 0 / 0.45);
+
+  color-scheme: dark;
+}
+
+/* Arabic: prefer the Arabic face and never letter-space cursive script. */
+html[lang="ar"] {
+  --ds-font-sans: var(--font-arabic), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --ds-tracking-tight: 0;
+  --ds-tracking-snug: 0;
+}
