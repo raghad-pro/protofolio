@@ -8,8 +8,6 @@ export const contactSchema = z.object({
   name: z.string().trim().min(2, { message: "nameMin" }).max(80, { message: "nameMax" }),
   email: z.string().trim().email({ message: "emailInvalid" }),
   message: z.string().trim().min(10, { message: "messageMin" }).max(2000, { message: "messageMax" }),
-  /** Honeypot — hidden from humans; bots tend to fill it. */
-  company: z.string().max(0).optional(),
 });
 
 export type ContactInput = z.infer<typeof contactSchema>;

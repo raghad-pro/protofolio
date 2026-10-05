@@ -1,6 +1,6 @@
 import { env } from "./env";
 
-export type SocialId = "github" | "linkedin" | "email";
+export type SocialId = "github" | "linkedin" | "instagram";
 
 export interface SocialLink {
   id: SocialId;
@@ -13,7 +13,7 @@ export const siteConfig = {
   socials: [
     { id: "github", href: env.githubUrl },
     { id: "linkedin", href: env.linkedinUrl },
-    { id: "email", href: `mailto:${env.contactEmail}` },
+    { id: "instagram", href: env.instagramUrl },
   ] satisfies SocialLink[],
   nav: ["about", "experience", "projects"] as const,
 } as const;

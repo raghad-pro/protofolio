@@ -27,7 +27,7 @@ export function ContactSection() {
   } = useForm<ContactInput>({
     resolver: zodResolver(contactSchema),
     mode: "onTouched",
-    defaultValues: { name: "", email: "", message: "", company: "" },
+    defaultValues: { name: "", email: "", message: "" },
   });
 
   const errorText = (key?: string) => (key ? t(`errors.${key as ContactErrorKey}`) : undefined);
@@ -143,16 +143,6 @@ export function ContactSection() {
                   multiline
                   registration={register("message")}
                   error={errorText(errors.message?.message)}
-                />
-
-                {/* Honeypot: invisible to people, tempting to bots */}
-                <input
-                  type="text"
-                  tabIndex={-1}
-                  autoComplete="off"
-                  aria-hidden
-                  className="absolute -start-[9999px] size-px opacity-0"
-                  {...register("company")}
                 />
 
                 {status === "error" && (

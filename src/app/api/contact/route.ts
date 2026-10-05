@@ -15,9 +15,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: "invalid" }, { status: 400 });
   }
 
-  const { name, email, message, company } = parsed.data;
-  // Honeypot filled → pretend success so bots don't retry.
-  if (company) return NextResponse.json({ ok: true });
+  const { name, email, message } = parsed.data;
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.CONTACT_TO_EMAIL;
